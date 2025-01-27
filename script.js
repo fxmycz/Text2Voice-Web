@@ -127,7 +127,7 @@ function makeRequest(url, isPreview, text) {
         url: url,
         method: 'GET',
         headers: {
-            'x-api-key': '@ak47'
+            'x-api-key': 'ca502c56e8c14aab92637c09d2b73673'
         },
         xhrFields: {
             responseType: 'blob'
@@ -153,7 +153,7 @@ function handleSuccess(blob, isPreview, text) {
     $('#audio')[0].load();
     if (!isPreview) {
         $('#download').attr('href', voiceUrl);
-        const timestamp = new Date().toLocaleTimeString();
+        const timestamp = new日期().toLocaleTimeString();
         const shortenedText = text.length > 5 ? text.substring(0, 5) + '...' : text;
         addHistoryItem(timestamp, shortenedText, voiceUrl);
     }
