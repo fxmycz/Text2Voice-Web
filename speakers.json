@@ -1,6 +1,6 @@
 {
     "voice-api": {
-        "url": "https://20240929.ttsapi.zwei.de.eu.org/tts",
+        "url": "https://tts.laoge.nyc.mn/tts",
         "speakers": {
             "zh-CN-XiaoxiaoNeural": "晓晓",
             "zh-CN-YunxiNeural": "云希",
@@ -47,7 +47,7 @@
         }
     },
     "lobe-api": {
-        "url": "https://tts-api.zwei.de.eu.org/v1/audio/speech",
+        "url": "https://tts.laoge.nyc.mn/v1/audio/speech",
         "speakers": {
             "zh-HK-HiuGaaiNeural": "HiuGaai-中文（粤语）",
             "zh-HK-HiuMaanNeural": "HiuMaan-中文（粤语）",
